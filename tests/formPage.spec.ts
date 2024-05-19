@@ -15,7 +15,12 @@ it.describe('FORM PAGE', () => {
         await page.locator('label:has-text("City*")~input#inputCity').fill('Orlando')
         await page.getByPlaceholder('Adress 1').fill("704 Tobie Ct")
         await page.getByRole('textbox', {name: "Zip code"}).fill("70421")
+
         
+
+
+develop
+datePicker
     })
 
     
